@@ -1,0 +1,19 @@
+Examen ENDES 17-05-22:
+
+- diferencias entre prueba de caja negra y caja blanca
+- cual es la estrategia de prueba para una estructura iterativa?
+- cual es la estrategia para una estructura selectiva
+- poner fragmento , y despues preguntar fragmento (sobre esta estructura selectiva explicar que pruebas de caja blanca has de diseñar) ---> yo haria una pde cajka blanca, haria todass las combinaciones (falso, true + true y true + flase, false)
+- estrategia caja blanca: TODAS LAS COMBINACIONES
+- estrategia caja negra:  nombre de fichero que no exista (sin ver el codigo, pasar combinaciones de parametros) VALORES TREMOS --> Los dos positivos o negativos EJ: cadena coje texto por trozos (pruebas: poner mas espacios, poner un tabulador)
+(sin ver el codigo, pasar combinaciones de parametros)
+VALORES EXTREMOS --> Los dos positivos o negativos EJ: cadena coje texto por trozos (pruebas: poner mas espacios, poner un tabulador)
+Que pruebas harías minimamente de caja blanca en una iterativa? Que entre 0 veces y varias en el bucle
+Que significa cobertura de código y para que sirve?
+Comente las siguientes frases:
+ - Cuando se diseñan las pruebas unitarias, es posible siempre hacer el 100% de cobertura de código
+ - Si tengo una cobertura del 100% , puedo asegurar que mi programa está libre de errores
+   +Falso:
+     -Porque puede haber combinaciones de valores que haga que las pruebas fallen y no las hayas contemplado
+     -Porque la prueba es muy compleja y no te merece la pena o porque no siempre puedas llegar al 100% por el diseño del código
+Otra cosa: pruebas a cambiar el código del programa, y si pasa aún así las pruebas, las pruebas están mal hechas
